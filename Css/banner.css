@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+.jBanner * {
+	margin: 0px!important;
+	padding: 0px!important;
+	border: none!important;
+	}
+
+.jBanner {
+	z-index:10;  
+	position: relative;
+	background-color: transparent;
+	}
+
+.jBanner ul {
+	z-index: -100;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	}
+
+.jBanner ul li {
+	display: none;
+	list-style: none;
+	z-index: 0;
+	}
+	
+.jBanner-image-wrap {
+	overflow: hidden;
+	}
+
+.jBanner ul, .jBanner ul li {
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	}
+
+.jBanner .nav-btns {
+    bottom: 0;
+    height: 20px;
+    margin: 0 0 10px 0 !important;
+    padding: 0 !important;
+    right: 0;
+    text-align: left;
+}
+	
+.jBanner .nav-btn {
+	width: 20px;
+	height: 16px;
+	background-image: url(../imagens/button.png);
+	margin: 0px 0px 0px 0px!important; 
+	}
+
+.jBanner .nav-btns, {
+	bottom: 0px;
+	}
+	
+.jBanner .nav-btn, {	
+	display:inline;
+	zoom:1;
+	}
+
+.jBanner .nav-btns .nav-btn:hover {
+	background-position: center -16px;
+	}
+	
+.jBanner .nav-btns .nav-btn.current-slide {
+	background-position: center -32px;
+	}
+	
+.jBanner .nav-btns {
+	cursor: default;
+	z-index: 102;
+	}
+	
+.jBanner .nav-btn {
+	cursor: pointer;
+	z-index: 14;
+	background-position: center 0px;
+	background-repeat: no-repeat; 
+	display: inline-block;
+	}
+
+.jBanner .nav-btns .nav-btn.current-slide {
+	cursor: default;
+	}
+	
